@@ -174,7 +174,7 @@ land_surface:
       name: none
       comment: Simple parameterization to avoid snow accumulation
     river_routing:
-      name: ISBA-CTRIP vx.x
+      name: ISBA-CTRIP
       family: TRIP
       description: >
         CTRIP is a river routing model used to convert the daily runoff simulated
@@ -182,7 +182,7 @@ land_surface:
         1/12-degree resolution.
       references:
         - citation: Decharme et al. (2019) 
-          doi:  
+          doi: https://doi.org/10.1029/2018MS001545
         - citation: Munier and Decharme (2022)
           doi: https://doi.org/10.5194/essd-14-2239-2022
       native_horizontal_grid:
